@@ -59,6 +59,14 @@ core/grit.instruction
 - sections feel less template-like
 - mobile adapts with structure, not just stacked blocks
 
+**Baseline output**
+
+![Baseline output](docs/readme-assets/before-baseline-desktop.png)
+
+**GRIT output**
+
+![GRIT output](docs/readme-assets/after-grit-desktop.png)
+
 ## Quick Start
 
 If you only want the fastest path to trying GRIT:
