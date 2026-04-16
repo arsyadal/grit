@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Output Artifact",
+  "type": "object",
+  "required": [
+    "label",
+    "prompt_path",
+    "code_path",
+    "render_target_path",
+    "desktop_screenshot_path",
+    "mobile_screenshot_path",
+    "notes"
+  ],
+  "properties": {
+    "label": { "enum": ["baseline", "grit"] },
+    "prompt_path": { "type": "string" },
+    "code_path": { "type": "string" },
+    "render_target_path": { "type": "string" },
+    "desktop_screenshot_path": { "type": "string" },
+    "mobile_screenshot_path": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

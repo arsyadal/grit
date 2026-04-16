@@ -1,0 +1,31 @@
+First apply the GRIT system instruction from core/grit.instruction.
+
+Apply this style module:
+styles/glass-product-ui.md
+
+Apply this layout module:
+layouts/dashboard-density.md
+
+Task:
+Task: Supply Chain Analytics Dashboard
+
+Product context:
+The product helps operations teams monitor supply chain risk, shipment delays, and supplier performance.
+
+User goal:
+Help operators understand system status at a glance and identify issues quickly.
+
+Requirements:
+- summary metrics
+- alert or risk module
+- chart or trend area
+- table or operational detail section
+
+Tech stack:
+React + Tailwind CSS
+
+Constraints:
+- should feel information-dense but readable
+- avoid generic admin dashboard defaults
+- mobile should stay legible, not just collapsed
+- avoid generic UI defaults

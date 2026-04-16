@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRIT Benchmark Render Test</title>
+    <style>
+      :root {
+        --bg: #f4f1e8;
+        --ink: #141414;
+        --muted: #5a554f;
+        --panel: #fffaf0;
+        --accent: #d6522c;
+        --line: #141414;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--ink);
+        background:
+          linear-gradient(135deg, rgba(214, 82, 44, 0.12), transparent 38%),
+          linear-gradient(180deg, #efe8db, var(--bg));
+      }
+
+      .frame {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 48px 24px 80px;
+      }
+
+      .kicker {
+        display: inline-block;
+        padding: 8px 12px;
+        border: 2px solid var(--line);
+        font: 700 12px/1.1 Arial, sans-serif;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        background: #fff;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 32px;
+        align-items: end;
+        margin-top: 28px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(52px, 8vw, 108px);
+        line-height: 0.94;
+        letter-spacing: -0.04em;
+      }
+
+      .lead {
+        max-width: 42rem;
+        margin-top: 18px;
+        font-size: 20px;
+        line-height: 1.5;
+        color: var(--muted);
+      }
+
+      .panel {
+        padding: 24px;
+        border: 2px solid var(--line);
+        background: var(--panel);
+        box-shadow: 10px 10px 0 #141414;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        margin-top: 40px;
+      }
+
+      .stat {
+        padding: 20px;
+        border: 2px solid var(--line);
+        background: #fff;
+      }
+
+      .stat strong {
+        display: block;
+        font: 700 34px/1 Arial, sans-serif;
+      }
+
+      .cta {
+        display: inline-block;
+        margin-top: 24px;
+        padding: 16px 22px;
+        border: 2px solid var(--line);
+        background: var(--accent);
+        color: #fff;
+        font: 700 14px/1 Arial, sans-serif;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+      @media (max-width: 900px) {
+        .hero,
+        .stats {
+          grid-template-columns: 1fr;
+        }
+
+        .frame {
+          padding: 28px 16px 48px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="frame">
+      <div class="kicker">Benchmark Render Test</div>
+      <section class="hero">
+        <div>
+          <h1>Security software should look decisive before it even speaks.</h1>
+          <p class="lead">
+            This minimal page exists only to verify the GRIT benchmark runner can render a local HTML file and
+            capture both desktop and mobile screenshots automatically.
+          </p>
+          <a class="cta" href="#">Capture This Page</a>
+        </div>
+        <aside class="panel">
+          <strong>Render Target</strong>
+          <p>Use this HTML file with the `capture` command to verify screenshot automation end to end.</p>
+        </aside>
+      </section>
+      <section class="stats">
+        <div class="stat"><strong>2</strong><span>breakpoints captured</span></div>
+        <div class="stat"><strong>1</strong><span>headless Chrome pass</span></div>
+        <div class="stat"><strong>0</strong><span>manual screenshot steps</span></div>
+      </section>
+    </main>
+  </body>
+</html>

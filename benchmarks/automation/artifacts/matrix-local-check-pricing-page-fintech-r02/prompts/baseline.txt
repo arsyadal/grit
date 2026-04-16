@@ -1,0 +1,22 @@
+Create a responsive frontend screen for the following task.
+
+Task: Task: Fintech Pricing Page
+Product context:
+The product is a digital investment platform with retail and advisor tiers.
+
+User goal:
+Explain pricing clearly, reduce confusion, and drive plan selection.
+
+Requirements:
+- pricing tier comparison
+- feature differentiation
+- FAQ or reassurance section
+- clear CTA
+
+Tech stack:
+React + Tailwind CSS
+
+Constraints:
+- should feel premium and high-trust
+- avoid cliché SaaS pricing cards
+- typography should carry persuasion

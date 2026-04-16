@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Judge Result",
+  "type": "object",
+  "required": ["comparison_id", "preferred_output", "confidence", "scores", "notes"],
+  "properties": {
+    "comparison_id": { "type": "string" },
+    "preferred_output": { "enum": ["A", "B", "tie"] },
+    "confidence": { "type": "number" },
+    "scores": {
+      "type": "object",
+      "required": ["A", "B"],
+      "properties": {
+        "A": { "$ref": "#/definitions/scoreBlock" },
+        "B": { "$ref": "#/definitions/scoreBlock" }
+      }
+    },
+    "notes": {
+      "type": "object",
+      "required": [
+        "strengths_of_A",
+        "strengths_of_B",
+        "deciding_factors",
+        "risks_or_ambiguities"
+      ],
+      "properties": {
+        "strengths_of_A": { "type": "array", "items": { "type": "string" } },
+        "strengths_of_B": { "type": "array", "items": { "type": "string" } },
+        "deciding_factors": { "type": "array", "items": { "type": "string" } },
+        "risks_or_ambiguities": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  },
+  "definitions": {
+    "scoreBlock": {
+      "type": "object",
+      "required": [
+        "hierarchy_clarity",
+        "visual_specificity",
+        "spacing_and_layout_discipline",
+        "component_consistency",
+        "responsiveness_and_adaptability",
+        "implementation_readiness",
+        "style_fidelity"
+      ],
+      "properties": {
+        "hierarchy_clarity": { "type": "number" },
+        "visual_specificity": { "type": "number" },
+        "spacing_and_layout_discipline": { "type": "number" },
+        "component_consistency": { "type": "number" },
+        "responsiveness_and_adaptability": { "type": "number" },
+        "implementation_readiness": { "type": "number" },
+        "style_fidelity": { "type": "number" }
+      }
+    }
+  }
+}

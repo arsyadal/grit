@@ -1,0 +1,13 @@
+{
+  "condition": "baseline",
+  "audited_url": "http://127.0.0.1:63011/",
+  "render_target_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/matrix-local-check-landing-page-b2b-security-r01/generated/baseline.html",
+  "lighthouse": {
+    "performance": 93,
+    "accessibility": 100
+  },
+  "axe": {
+    "violations": 0,
+    "details": []
+  }
+}

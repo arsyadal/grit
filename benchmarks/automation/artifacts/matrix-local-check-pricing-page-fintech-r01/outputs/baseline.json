@@ -1,0 +1,9 @@
+{
+  "label": "baseline",
+  "prompt_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/matrix-local-check-pricing-page-fintech-r01/prompts/baseline.txt",
+  "code_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/matrix-local-check-pricing-page-fintech-r01/generated/baseline.html",
+  "render_target_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/matrix-local-check-pricing-page-fintech-r01/generated/baseline.html",
+  "desktop_screenshot_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/matrix-local-check-pricing-page-fintech-r01/screenshots/baseline-desktop.png",
+  "mobile_screenshot_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/matrix-local-check-pricing-page-fintech-r01/screenshots/baseline-mobile.png",
+  "notes": "Generated with template provider for baseline."
+}

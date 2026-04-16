@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task: Developer Tools Settings Page GRIT</title>
+    <style>
+      :root {
+        --bg: #ece6d8;
+        --ink: #151515;
+        --muted: #5b564f;
+        --panel: rgba(255, 250, 240, 0.96);
+        --accent: #d64d28;
+        --line: #171717;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--ink);
+        background:
+          linear-gradient(140deg, rgba(214, 77, 40, 0.10), transparent 36%),
+          linear-gradient(180deg, #f4efe2, var(--bg));
+      }
+      .frame {
+        max-width: 1260px;
+        margin: 0 auto;
+        padding: 42px 20px 80px;
+      }
+      .kicker {
+        display: inline-block;
+        padding: 8px 12px;
+        border: 2px solid var(--line);
+        background: #fff;
+        font: 700 12px/1 Arial, sans-serif;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 28px;
+        align-items: end;
+        margin-top: 24px;
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(52px, 8vw, 108px);
+        line-height: 0.93;
+        letter-spacing: -0.05em;
+      }
+      .lead {
+        max-width: 44rem;
+        margin-top: 18px;
+        font-size: 20px;
+        line-height: 1.55;
+        color: var(--muted);
+      }
+      .cta {
+        display: inline-block;
+        margin-top: 28px;
+        padding: 16px 22px;
+        border: 2px solid var(--line);
+        background: var(--accent);
+        color: #fff;
+        text-decoration: none;
+        font: 700 14px/1 Arial, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.10em;
+      }
+      .panel {
+        padding: 24px;
+        border: 2px solid var(--line);
+        background: var(--panel);
+        box-shadow: 10px 10px 0 var(--line);
+      }
+      .meta {
+        display: grid;
+        gap: 18px;
+      }
+      .meta-block strong {
+        display: block;
+        margin-bottom: 8px;
+        font: 700 12px/1 Arial, sans-serif;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        margin-top: 34px;
+      }
+      .stat {
+        padding: 20px;
+        border: 2px solid var(--line);
+        background: #fffdf6;
+      }
+      .stat strong {
+        display: block;
+        font: 700 34px/1 Arial, sans-serif;
+      }
+      .columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+        margin-top: 20px;
+      }
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+      li + li {
+        margin-top: 8px;
+      }
+      @media (max-width: 920px) {
+        .hero,
+        .stats,
+        .columns {
+          grid-template-columns: 1fr;
+        }
+        .frame {
+          padding: 28px 16px 48px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="frame">
+      <div class="kicker">GRIT Treatment</div>
+      <section class="hero">
+        <div>
+          <h1>Task: Developer Tools Settings Page</h1>
+          <p class="lead">Make complex settings manageable and easy to scan.</p>
+          <a class="cta" href="#">Request the executive demo</a>
+        </div>
+        <aside class="panel meta">
+          <div class="meta-block">
+            <strong>Style module</strong>
+            <span>Glass Product Ui</span>
+          </div>
+          <div class="meta-block">
+            <strong>Layout module</strong>
+            <span>Form Clarity</span>
+          </div>
+          <div class="meta-block">
+            <strong>Context</strong>
+            <span>The product is a developer platform with settings for API keys, environments, notifications, and team access.</span>
+          </div>
+        </aside>
+      </section>
+      <section class="stats">
+        <article class="stat"><strong>5</strong><span>required interface blocks</span></article>
+        <article class="stat"><strong>3</strong><span>execution constraints respected</span></article>
+        <article class="stat"><strong>1</strong><span>clear visual direction</span></article>
+      </section>
+      <section class="columns">
+        <article class="panel">
+          <strong>Requirements</strong>
+          <ul><li>section navigation or structure</li>
+<li>API key management area</li>
+<li>environment configuration block</li>
+<li>notification controls</li>
+<li>team access or permissions area</li></ul>
+        </article>
+        <article class="panel">
+          <strong>Constraints</strong>
+          <ul><li>should feel structured and high-signal</li>
+<li>avoid cluttered admin defaults</li>
+<li>preserve scanability across dense content</li></ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

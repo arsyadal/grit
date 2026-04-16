@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Benchmark Run",
+  "type": "object",
+  "required": [
+    "run_id",
+    "created_at",
+    "task_id",
+    "model",
+    "reasoning_effort",
+    "style_module",
+    "layout_module",
+    "output_mapping"
+  ],
+  "properties": {
+    "run_id": { "type": "string" },
+    "created_at": { "type": "string" },
+    "task_id": { "type": "string" },
+    "model": { "type": "string" },
+    "reasoning_effort": { "type": "string" },
+    "style_module": { "type": "string" },
+    "layout_module": {
+      "type": ["string", "null"]
+    },
+    "output_mapping": {
+      "type": "object",
+      "required": ["A", "B"],
+      "properties": {
+        "A": { "enum": ["baseline", "grit"] },
+        "B": { "enum": ["baseline", "grit"] }
+      }
+    },
+    "notes": { "type": "string" }
+  }
+}

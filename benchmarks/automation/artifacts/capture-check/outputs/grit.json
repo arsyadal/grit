@@ -1,0 +1,9 @@
+{
+  "label": "grit",
+  "prompt_path": "",
+  "code_path": "",
+  "render_target_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/examples/minimal-page.html",
+  "desktop_screenshot_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/capture-check/screenshots/grit-desktop.png",
+  "mobile_screenshot_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/capture-check/screenshots/grit-mobile.png",
+  "notes": ""
+}

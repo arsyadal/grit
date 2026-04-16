@@ -1,0 +1,31 @@
+First apply the GRIT system instruction from core/grit.instruction.
+
+Apply this style module:
+styles/swiss-editorial.md
+
+Apply this layout module:
+layouts/form-clarity.md
+
+Task:
+Task: HR Onboarding Form
+
+Product context:
+The product is an HR platform used by mid-size companies to onboard new employees.
+
+User goal:
+Help HR staff complete employee setup quickly and accurately.
+
+Requirements:
+- personal information fields
+- role and department fields
+- document upload area
+- action footer
+
+Tech stack:
+React + Tailwind CSS
+
+Constraints:
+- high clarity over decoration
+- should reduce perceived complexity
+- mobile form flow should remain usable
+- avoid generic UI defaults

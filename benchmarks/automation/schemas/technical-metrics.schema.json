@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Technical Metrics",
+  "type": "object",
+  "required": ["baseline", "grit"],
+  "properties": {
+    "baseline": { "$ref": "#/definitions/outputMetrics" },
+    "grit": { "$ref": "#/definitions/outputMetrics" }
+  },
+  "definitions": {
+    "outputMetrics": {
+      "type": "object",
+      "required": [
+        "build_pass",
+        "lint_pass",
+        "iteration_count",
+        "elapsed_seconds"
+      ],
+      "properties": {
+        "build_pass": { "type": "boolean" },
+        "lint_pass": { "type": "boolean" },
+        "iteration_count": { "type": "number" },
+        "elapsed_seconds": { "type": "number" },
+        "lighthouse_performance": { "type": ["number", "null"] },
+        "lighthouse_accessibility": { "type": ["number", "null"] },
+        "axe_violations": { "type": ["number", "null"] },
+        "manual_edit_loc": { "type": ["number", "null"] }
+      }
+    }
+  }
+}

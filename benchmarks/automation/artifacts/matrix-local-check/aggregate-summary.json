@@ -1,0 +1,107 @@
+{
+  "batch_dir": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/matrix-local-check",
+  "total_runs": 15,
+  "grit_wins": 15,
+  "baseline_wins": 0,
+  "ties": 0,
+  "grit_win_rate": 100.0,
+  "average_baseline_mean_score": 4.2857,
+  "average_grit_mean_score": 4.8571,
+  "average_score_uplift_percent": 13.3333,
+  "average_baseline_lighthouse_accessibility": 100.0,
+  "average_grit_lighthouse_accessibility": 91.0,
+  "average_baseline_axe_violations": 0.0,
+  "average_grit_axe_violations": 1.0,
+  "runs": [
+    {
+      "run_id": "matrix-local-check-dashboard-supply-chain-r01",
+      "task_id": "dashboard-supply-chain",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-dashboard-supply-chain-r02",
+      "task_id": "dashboard-supply-chain",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-dashboard-supply-chain-r03",
+      "task_id": "dashboard-supply-chain",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-landing-page-b2b-security-r01",
+      "task_id": "landing-page-b2b-security",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-landing-page-b2b-security-r02",
+      "task_id": "landing-page-b2b-security",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-landing-page-b2b-security-r03",
+      "task_id": "landing-page-b2b-security",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-onboarding-form-hr-r01",
+      "task_id": "onboarding-form-hr",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-onboarding-form-hr-r02",
+      "task_id": "onboarding-form-hr",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-onboarding-form-hr-r03",
+      "task_id": "onboarding-form-hr",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-pricing-page-fintech-r01",
+      "task_id": "pricing-page-fintech",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-pricing-page-fintech-r02",
+      "task_id": "pricing-page-fintech",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-pricing-page-fintech-r03",
+      "task_id": "pricing-page-fintech",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-settings-page-devtools-r01",
+      "task_id": "settings-page-devtools",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-settings-page-devtools-r02",
+      "task_id": "settings-page-devtools",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    },
+    {
+      "run_id": "matrix-local-check-settings-page-devtools-r03",
+      "task_id": "settings-page-devtools",
+      "judge_preferred_condition": "grit",
+      "score_uplift_percent": 13.3333
+    }
+  ]
+}

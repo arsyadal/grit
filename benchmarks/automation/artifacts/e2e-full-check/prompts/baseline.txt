@@ -1,0 +1,24 @@
+Create a responsive frontend screen for the following task.
+
+Task: Task: B2B Security Landing Page
+Product context:
+The product is a B2B security platform for enterprise IT teams.
+It monitors identity risk, endpoint exposure, and policy compliance.
+
+User goal:
+Convince security leaders to trust the product and request a demo.
+
+Requirements:
+- hero section
+- product value explanation
+- trust-building proof points
+- feature overview
+- CTA for demo booking
+
+Tech stack:
+React + Tailwind CSS
+
+Constraints:
+- desktop and mobile support
+- avoid generic startup landing page patterns
+- prioritize hierarchy and trust

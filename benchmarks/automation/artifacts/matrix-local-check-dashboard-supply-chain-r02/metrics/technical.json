@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "build_pass": true,
+    "lint_pass": true,
+    "iteration_count": 1,
+    "elapsed_seconds": 0.0013,
+    "lighthouse_performance": 100,
+    "lighthouse_accessibility": 100,
+    "axe_violations": 0,
+    "manual_edit_loc": 0
+  },
+  "grit": {
+    "build_pass": true,
+    "lint_pass": true,
+    "iteration_count": 1,
+    "elapsed_seconds": 0.0005,
+    "lighthouse_performance": 100,
+    "lighthouse_accessibility": 91,
+    "axe_violations": 1,
+    "manual_edit_loc": 0
+  }
+}

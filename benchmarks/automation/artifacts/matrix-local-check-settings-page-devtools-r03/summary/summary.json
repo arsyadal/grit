@@ -1,0 +1,70 @@
+{
+  "run_id": "matrix-local-check-settings-page-devtools-r03",
+  "task_id": "settings-page-devtools",
+  "model": "gpt-5.4",
+  "reasoning_effort": "medium",
+  "style_module": "styles/glass-product-ui.md",
+  "layout_module": "layouts/form-clarity.md",
+  "judge_preferred_condition": "grit",
+  "judge_confidence": 0.4,
+  "baseline_mean_score": 4.2857,
+  "grit_mean_score": 4.8571,
+  "score_uplift_percent": 13.3333,
+  "baseline_acceptance_rate": 100.0,
+  "grit_acceptance_rate": 100.0,
+  "baseline_iteration_count": 1.0,
+  "grit_iteration_count": 1.0,
+  "iteration_reduction_percent": 0.0,
+  "baseline_elapsed_seconds": 0.0006,
+  "grit_elapsed_seconds": 0.0005,
+  "baseline_build_pass": true,
+  "grit_build_pass": true,
+  "baseline_lint_pass": true,
+  "grit_lint_pass": true,
+  "baseline_lighthouse_performance": 100,
+  "grit_lighthouse_performance": 100,
+  "baseline_lighthouse_accessibility": 100,
+  "grit_lighthouse_accessibility": 91,
+  "baseline_axe_violations": 0,
+  "grit_axe_violations": 1,
+  "baseline_manual_edit_loc": 0,
+  "grit_manual_edit_loc": 0,
+  "baseline_category_scores": {
+    "hierarchy_clarity": 4,
+    "visual_specificity": 4,
+    "spacing_and_layout_discipline": 5,
+    "component_consistency": 4,
+    "responsiveness_and_adaptability": 5,
+    "implementation_readiness": 5,
+    "style_fidelity": 3
+  },
+  "grit_category_scores": {
+    "hierarchy_clarity": 4,
+    "visual_specificity": 5,
+    "spacing_and_layout_discipline": 5,
+    "component_consistency": 5,
+    "responsiveness_and_adaptability": 5,
+    "implementation_readiness": 5,
+    "style_fidelity": 5
+  },
+  "judge_notes": {
+    "strengths_of_A": [
+      "Clearer visual direction and stronger surface treatment.",
+      "Layout uses more deliberate grid and spacing signals.",
+      "Responsive intent is visible through media-query and sizing choices."
+    ],
+    "strengths_of_B": [
+      "Clearer visual direction and stronger surface treatment.",
+      "Layout uses more deliberate grid and spacing signals.",
+      "Responsive intent is visible through media-query and sizing choices."
+    ],
+    "deciding_factors": [
+      "Heuristic judge compared hierarchy, specificity, spacing, responsiveness, and implementation readiness.",
+      "Mean score delta: 0.5714 in favor of GRIT."
+    ],
+    "risks_or_ambiguities": [
+      "This result comes from a local heuristic judge, not a model-as-judge review.",
+      "Use a blind model judge for stronger benchmark credibility."
+    ]
+  }
+}

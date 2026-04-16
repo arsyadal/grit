@@ -1,0 +1,31 @@
+{
+  "comparison_id": "capture-check",
+  "preferred_output": "tie",
+  "confidence": 0.0,
+  "scores": {
+    "A": {
+      "hierarchy_clarity": 0,
+      "visual_specificity": 0,
+      "spacing_and_layout_discipline": 0,
+      "component_consistency": 0,
+      "responsiveness_and_adaptability": 0,
+      "implementation_readiness": 0,
+      "style_fidelity": 0
+    },
+    "B": {
+      "hierarchy_clarity": 0,
+      "visual_specificity": 0,
+      "spacing_and_layout_discipline": 0,
+      "component_consistency": 0,
+      "responsiveness_and_adaptability": 0,
+      "implementation_readiness": 0,
+      "style_fidelity": 0
+    }
+  },
+  "notes": {
+    "strengths_of_A": [],
+    "strengths_of_B": [],
+    "deciding_factors": [],
+    "risks_or_ambiguities": []
+  }
+}

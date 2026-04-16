@@ -1,0 +1,13 @@
+{
+  "condition": "baseline",
+  "audited_url": "http://127.0.0.1:63628/",
+  "render_target_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/matrix-local-check-onboarding-form-hr-r03/generated/baseline.html",
+  "lighthouse": {
+    "performance": 100,
+    "accessibility": 100
+  },
+  "axe": {
+    "violations": 0,
+    "details": []
+  }
+}

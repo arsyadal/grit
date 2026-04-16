@@ -1,0 +1,31 @@
+First apply the GRIT system instruction from core/grit.instruction.
+
+Apply this style module:
+styles/swiss-editorial.md
+
+Apply this layout module:
+layouts/grid-rhythm.md
+
+Task:
+Task: Fintech Pricing Page
+
+Product context:
+The product is a digital investment platform with retail and advisor tiers.
+
+User goal:
+Explain pricing clearly, reduce confusion, and drive plan selection.
+
+Requirements:
+- pricing tier comparison
+- feature differentiation
+- FAQ or reassurance section
+- clear CTA
+
+Tech stack:
+React + Tailwind CSS
+
+Constraints:
+- should feel premium and high-trust
+- avoid cliché SaaS pricing cards
+- typography should carry persuasion
+- avoid generic UI defaults

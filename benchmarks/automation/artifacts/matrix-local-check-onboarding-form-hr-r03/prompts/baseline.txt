@@ -1,0 +1,22 @@
+Create a responsive frontend screen for the following task.
+
+Task: Task: HR Onboarding Form
+Product context:
+The product is an HR platform used by mid-size companies to onboard new employees.
+
+User goal:
+Help HR staff complete employee setup quickly and accurately.
+
+Requirements:
+- personal information fields
+- role and department fields
+- document upload area
+- action footer
+
+Tech stack:
+React + Tailwind CSS
+
+Constraints:
+- high clarity over decoration
+- should reduce perceived complexity
+- mobile form flow should remain usable

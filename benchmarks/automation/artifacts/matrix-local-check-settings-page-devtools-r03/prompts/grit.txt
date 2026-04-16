@@ -1,0 +1,32 @@
+First apply the GRIT system instruction from core/grit.instruction.
+
+Apply this style module:
+styles/glass-product-ui.md
+
+Apply this layout module:
+layouts/form-clarity.md
+
+Task:
+Task: Developer Tools Settings Page
+
+Product context:
+The product is a developer platform with settings for API keys, environments, notifications, and team access.
+
+User goal:
+Make complex settings manageable and easy to scan.
+
+Requirements:
+- section navigation or structure
+- API key management area
+- environment configuration block
+- notification controls
+- team access or permissions area
+
+Tech stack:
+React + Tailwind CSS
+
+Constraints:
+- should feel structured and high-signal
+- avoid cluttered admin defaults
+- preserve scanability across dense content
+- avoid generic UI defaults

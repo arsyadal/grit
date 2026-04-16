@@ -1,0 +1,20 @@
+{
+  "condition": "grit",
+  "audited_url": "http://127.0.0.1:64390/",
+  "render_target_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/matrix-local-check-settings-page-devtools-r03/generated/grit.html",
+  "lighthouse": {
+    "performance": 100,
+    "accessibility": 91
+  },
+  "axe": {
+    "violations": 1,
+    "details": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "nodes": 1
+      }
+    ]
+  }
+}

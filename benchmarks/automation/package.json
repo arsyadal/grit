@@ -1,0 +1,14 @@
+{
+  "name": "grit-benchmark-automation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "audit": "node ./scripts/run_technical_audit.mjs"
+  },
+  "dependencies": {
+    "axe-core": "^4.10.3",
+    "chrome-launcher": "^1.1.2",
+    "lighthouse": "^12.8.2",
+    "puppeteer-core": "^24.9.0"
+  }
+}

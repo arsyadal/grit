@@ -1,0 +1,7 @@
+interface:
+  display_name: "GRIT"
+  short_description: "Sharper frontend prompting with character"
+  default_prompt: "Use $grit to design and implement a non-generic frontend screen with a clear visual direction."
+
+policy:
+  allow_implicit_invocation: true

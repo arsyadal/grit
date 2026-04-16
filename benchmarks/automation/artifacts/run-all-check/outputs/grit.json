@@ -1,0 +1,9 @@
+{
+  "label": "grit",
+  "prompt_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/run-all-check/prompts/grit.txt",
+  "code_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/run-all-check/generated/grit.html",
+  "render_target_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/run-all-check/generated/grit.html",
+  "desktop_screenshot_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/run-all-check/screenshots/grit-desktop.png",
+  "mobile_screenshot_path": "/Users/macintoshhd/Documents/grit/benchmarks/automation/artifacts/run-all-check/screenshots/grit-mobile.png",
+  "notes": "Generated with template provider for grit."
+}
